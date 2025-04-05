@@ -137,7 +137,7 @@ importers:
         specifier: 5.8.7
         version: 5.8.7(@types/react@19.0.12)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(styled-components@5.3.6(@babel/core@7.26.10)(react-dom@19.1.0(react@19.1.0))(react-is@19.1.0)(react@19.1.0))
       '@mui/styled-engine':
-        specifier: npm:@mui/styled-engine-sc@^7.0.1
+        specifier: npm:@mui/styled-engine-sc@latest
         version: '@mui/styled-engine-sc@7.0.1(styled-components@5.3.6(@babel/core@7.26.10)(react-dom@19.1.0(react@19.1.0))(react-is@19.1.0)(react@19.1.0))'
       '@mui/styled-engine-sc':
         specifier: ^5.8.0
