@@ -1,5 +1,8 @@
+"use client";
+
 import Image, { type ImageProps } from "next/image";
-import { Button } from "@repo/ui/button";
+import { Button as UiButton } from "@repo/ui/button";
+import { Button as MuiButton } from "@repo/mui";
 import styles from "./page.module.css";
 
 type Props = Omit<ImageProps, "src"> & {
@@ -63,9 +66,10 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-        <Button appName="web" className={styles.secondary}>
+        <UiButton appName="web" className={styles.secondary}>
           Open alert
-        </Button>
+        </UiButton>
+        <MuiButton variant="contained">Open alert</MuiButton>
       </main>
       <footer className={styles.footer}>
         <a

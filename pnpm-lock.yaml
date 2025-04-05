@@ -60,6 +60,9 @@ importers:
 
   apps/web:
     dependencies:
+      '@repo/mui':
+        specifier: workspace:*
+        version: link:../../packages/mui
       '@repo/ui':
         specifier: workspace:*
         version: link:../../packages/ui
