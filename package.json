@@ -20,6 +20,9 @@
   "pnpm": {
     "overrides": {
       "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
+    },
+    "patchedDependencies": {
+      "@mui/material@5.8.7": "patches/@mui__material@5.8.7.patch"
     }
   }
 }

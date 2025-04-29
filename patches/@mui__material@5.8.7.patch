@@ -1,0 +1,30 @@
+diff --git a/.vscode/settings.json b/.vscode/settings.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..6c66867d1816076354a33ffed0fc74952b070f16
+--- /dev/null
++++ b/.vscode/settings.json
+@@ -0,0 +1,8 @@
++{
++    "i18n-ally.localesPaths": [
++        "locale",
++        "legacy/locale",
++        "modern/locale",
++        "node/locale"
++    ]
++}
+\ No newline at end of file
+diff --git a/index.js b/index.js
+index e8f59a6cf7e42a19cb59a6a0ac0e1e58b6b4fd22..e5bf2a3b33358a4c415c78d1e41b336a3718d7ba 100644
+--- a/index.js
++++ b/index.js
+@@ -3,6 +3,10 @@
+  * This source code is licensed under the MIT license found in the
+  * LICENSE file in the root directory of this source tree.
+  */
++/**
++ * Add a comment to check pnpm patcho
++ * comment here
++ */
+ /* eslint-disable import/export */
+ import * as colors from './colors';
+ export { colors };
